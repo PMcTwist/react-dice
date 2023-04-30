@@ -1,0 +1,15 @@
+.Roller {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Roller-btn {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 35px;
+}
