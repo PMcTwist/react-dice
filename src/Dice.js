@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Dice.css';
 
 class Dice extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
-    render(num) {
+    render() {
         return(
             <div>
-                <i className='fas fa-dice-one'></i>
+                <i className={`Dice fas fa-dice-${this.props.num} ${this.props.roll && 'shaking'}`}></i>
             </div>
         )
     }
